@@ -39,7 +39,8 @@ if whipped_cream():
 else:
     whipped = "without whipped cream"
 
-statement = "Hello " + name + ", you have ordered " + quantity + ", " + size + " cups of " + drink + ", " + whipped + ". "
+statement = "Hello " + name + ", you have ordered " + quantity + ", " + size + " cups of " + drink + ", " \
+            + whipped + ". "
 
 
 def extras():
