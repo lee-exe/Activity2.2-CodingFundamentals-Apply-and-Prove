@@ -12,9 +12,7 @@ for age in ages:
     print(age)
 
 # 3
-for age in ages:
-    age += 1
-    print(age)
+ages[:] = [x + 1 for x in ages]
 
 # 4
 for age in ages:
@@ -30,5 +28,3 @@ new_list.sort()
 # 7
 length_of_new_list = len(new_list)
 proportion = (new_range/length_of_new_list) * 100
-
-print(proportion)
